@@ -1,0 +1,11 @@
+{
+  "name": "jknext-web",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes serve public -l 4173",
+    "deploy": "firebase deploy --only hosting:jknext"
+  },
+  "dependencies": {
+    "firebase": "^12.18.0"
+  }
+}
