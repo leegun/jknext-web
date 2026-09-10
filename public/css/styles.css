@@ -468,6 +468,36 @@ button {
   align-items: start;
 }
 
+.company-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.president-photo {
+  margin: 0;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.president-photo img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  object-position: 18% 20%;
+}
+
+.president-photo figcaption {
+  padding: 14px 18px 16px;
+  color: var(--ink-soft);
+  font-size: 14px;
+  letter-spacing: 0.04em;
+}
+
 .spec {
   margin: 0;
   padding: 12px 28px;
